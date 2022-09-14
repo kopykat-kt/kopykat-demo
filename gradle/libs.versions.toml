@@ -1,0 +1,13 @@
+[versions]
+kotlin = "1.7.10"
+kspVersion = "1.7.10-1.0.6"
+kopyKatVersion = "0.1"
+
+[libraries]
+kotlin-stdlibCommon = { module = "org.jetbrains.kotlin:kotlin-stdlib-common" }
+kotlin-stdlibJDK8 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8" }
+kopyKat = { module = "com.github.serras.kopykat:ksp", version.ref = "kopyKatVersion" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "kspVersion" }
