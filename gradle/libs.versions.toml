@@ -1,7 +1,7 @@
 [versions]
 kotlin = "1.7.10"
 kspVersion = "1.7.10-1.0.6"
-kopyKatVersion = "0.1"
+kopyKatVersion = "1.0-dev"
 
 [libraries]
 kotlin-stdlibCommon = { module = "org.jetbrains.kotlin:kotlin-stdlib-common" }
