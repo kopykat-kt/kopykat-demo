@@ -1,4 +1,4 @@
-package fp.serrano.kopykat.example
+package at.kopyk.demo
 
 data class Person(val name: String, val age: Int)
 

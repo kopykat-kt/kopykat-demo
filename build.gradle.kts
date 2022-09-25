@@ -6,12 +6,11 @@ plugins {
     idea
 }
 
-group = "fp.serrano"
+group = "at.kopyk"
 version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
-    maven(url = "https://jitpack.io")
 }
 
 dependencies {
